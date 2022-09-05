@@ -1,7 +1,8 @@
 import Particles from "react-particles";
 import { loadFull } from "tsparticles";
 import { useCallback } from "react";
-import particlesConfig from "./particles-config";
+import particlesConfig from "./config/particles-config";
+import particlesConfig2 from "./config/particles-config2"
 
 function Particle() {
 
@@ -22,7 +23,7 @@ function Particle() {
         id="tsparticles" 
         init={particlesInit} 
         loaded={particlesLoaded} 
-        params={particlesConfig}
+        params={particlesConfig2}
         />
         
         </div>

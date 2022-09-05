@@ -1,6 +1,6 @@
 
 import './App.scss';
-import Particle from './components/config/Particle';
+import Particle from './components/Particle';
 
 
 function App() {
