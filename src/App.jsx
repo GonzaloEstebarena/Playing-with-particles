@@ -1,12 +1,13 @@
-
+import Show from './components/Show';
 import './App.scss';
-import Particle from './components/Particle';
+
 
 
 function App() {
   return (
     <div className="app">
-      <Particle/>
+      
+      <Show/>
       <h1>AYAYAY</h1>
     </div>
   );

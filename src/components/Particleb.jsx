@@ -1,9 +1,9 @@
 import Particles from "react-particles";
 import { loadFull } from "tsparticles";
 import { useCallback } from "react";
-import particlesConfig from "./config/particles-config";
+import particlesConfig2 from "./config/particles-config2";
 
-function Particle() {
+function Particleb() {
   const particlesInit = useCallback(async (engine) => {
     console.log(engine);
     
@@ -15,17 +15,17 @@ function Particle() {
   }, []);
 
   return (
-    <div>
-      
+    <div >
       <Particles
         id="tsparticles"
         init={particlesInit}
         loaded={particlesLoaded}
-        params={particlesConfig}
+        params={particlesConfig2}
       />
+      
     </div>
     
   );
 }
 
-export default Particle;
+export default Particleb;
